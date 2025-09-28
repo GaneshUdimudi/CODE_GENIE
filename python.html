@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Programs - Code Genie</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="assets/animations.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">CODE GENIE</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="java.html">JAVA</a></li>
+                <li class="nav-item active"><a class="nav-link" href="python.html">PYTHON</a></li>
+                <li class="nav-item"><a class="nav-link" href="c.html">C</a></li>
+                <li class="nav-item"><a class="nav-link" href="suggestion.html">FEEDBACK</a></li>
+            </ul>
+        </div>
+    </nav>
+
+<div class="container pt-5 pb-5 main-content-area">
+
+        <div class="row">
+            <div class="col-12 text-center mb-4">
+                <h1 class="page-heading">Python Programming</h1>
+                <p class="page-paragraph">Python is a high-level, general-purpose programming language known for its code readability and significant indentation.</p>
+            </div>
+
+            <div class="col-12">
+                <h2 class="section-heading">PROGRAMS</h2>
+            </div>
+
+            <div class="col-12 col-md-6 mb-4">
+                <div class="card h-100 p-3 shadow-sm">
+                    <h3 class="program-title"><i class="fas fa-adjust"></i>ODD OR EVEN</h3>
+                    <p class="program-description">Check whether a given number is odd or even.</p>
+                    <button type="button" class="btn btn-primary mt-auto" data-toggle="modal" data-target="#python-oddEvenModal">View Code</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mb-4">
+                <div class="card h-100 p-3 shadow-sm">
+                    <h3 class="program-title"><i class="fas fa-gem"></i>PRIME NUMBER</h3>
+                    <p class="program-description">Check if a number is prime.</p>
+                    <button type="button" class="btn btn-primary mt-auto" data-toggle="modal" data-target="#python-primeModal">View Code</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mb-4">
+                <div class="card h-100 p-3 shadow-sm">
+                    <h3 class="program-title"><i class="fas fa-calculator"></i>FACTORIAL</h3>
+                    <p class="program-description">Calculate the factorial of a number.</p>
+                    <button type="button" class="btn btn-primary mt-auto" data-toggle="modal" data-target="#python-factorialModal">View Code</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mb-4">
+                <div class="card h-100 p-3 shadow-sm">
+                    <h3 class="program-title"><i class="fas fa-exchange-alt"></i>PALINDROME</h3>
+                    <p class="program-description">Check if a string or number is a palindrome.</p>
+                    <button type="button" class="btn btn-primary mt-auto" data-toggle="modal" data-target="#python-palindromeModal">View Code</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mb-4">
+                <div class="card h-100 p-3 shadow-sm">
+                    <h3 class="program-title"><i class="fas fa-stream"></i>SUM OF N NATURAL NUMBERS</h3>
+                    <p class="program-description">Find the sum of the first N natural numbers.</p>
+                    <button type="button" class="btn btn-primary mt-auto" data-toggle="modal" data-target="#python-sumNModal">View Code</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mb-4">
+                <div class="card h-100 p-3 shadow-sm">
+                    <h3 class="program-title"><i class="fas fa-dna"></i>FIBONACCI SERIES</h3>
+                    <p class="program-description">Generate the Fibonacci series up to a certain number.</p>
+                    <button type="button" class="btn btn-primary mt-auto" data-toggle="modal" data-target="#python-fibonacciModal">View Code</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mb-4">
+                <div class="card h-100 p-3 shadow-sm">
+                    <h3 class="program-title"><i class="fas fa-undo"></i>REVERSE A NUMBER</h3>
+                    <p class="program-description">Reverse the digits of an integer.</p>
+                    <button type="button" class="btn btn-primary mt-auto" data-toggle="modal" data-target="#python-reverseNumModal">View Code</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mb-4">
+                <div class="card h-100 p-3 shadow-sm">
+                    <h3 class="program-title"><i class="fas fa-divide"></i>GCD OF TWO NUMBERS</h3>
+                    <p class="program-description">Find the Greatest Common Divisor (GCD) of two numbers.</p>
+                    <button type="button" class="btn btn-primary mt-auto" data-toggle="modal" data-target="#python-gcdModal">View Code</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mb-4">
+                <div class="card h-100 p-3 shadow-sm">
+                    <h3 class="program-title"><i class="fas fa-star"></i>ARMSTRONG NUMBER</h3>
+                    <p class="program-description">Check if a number is an Armstrong number.</p>
+                    <button type="button" class="btn btn-primary mt-auto" data-toggle="modal" data-target="#python-armstrongModal">View Code</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mb-4">
+                <div class="card h-100 p-3 shadow-sm">
+                    <h3 class="program-title"><i class="fas fa-search"></i>LINEAR SEARCH</h3>
+                    <p class="program-description">Implement the linear search algorithm.</p>
+                    <button type="button" class="btn btn-primary mt-auto" data-toggle="modal" data-target="#python-linearSearchModal">View Code</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mb-4">
+                <div class="card h-100 p-3 shadow-sm">
+                    <h3 class="program-title"><i class="fas fa-search-plus"></i>BINARY SEARCH</h3>
+                    <p class="program-description">Implement the binary search algorithm.</p>
+                    <button type="button" class="btn btn-primary mt-auto" data-toggle="modal" data-target="#python-binarySearchModal">View Code</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mb-4">
+                <div class="card h-100 p-3 shadow-sm">
+                    <h3 class="program-title"><i class="fas fa-sort-amount-up"></i>BUBBLE SORT</h3>
+                    <p class="program-description">Sort an array using Bubble Sort.</p>
+                    <button type="button" class="btn btn-primary mt-auto" data-toggle="modal" data-target="#python-bubbleSortModal">View Code</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mb-4">
+                <div class="card h-100 p-3 shadow-sm">
+                    <h3 class="program-title"><i class="fas fa-code-branch"></i>MERGE SORT</h3>
+                    <p class="program-description">Sort an array using Merge Sort.</p>
+                    <button type="button" class="btn btn-primary mt-auto" data-toggle="modal" data-target="#python-mergeSortModal">View Code</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mb-4">
+                <div class="card h-100 p-3 shadow-sm">
+                    <h3 class="program-title"><i class="fas fa-sort-numeric-down"></i>INSERTION SORT</h3>
+                    <p class="program-description">Sort an array using Insertion Sort.</p>
+                    <button type="button" class="btn btn-primary mt-auto" data-toggle="modal" data-target="#python-insertionSortModal">View Code</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mb-4">
+                <div class="card h-100 p-3 shadow-sm">
+                    <h3 class="program-title"><i class="fas fa-fast-forward"></i>QUICK SORT</h3>
+                    <p class="program-description">Sort an array using Quick Sort.</p>
+                    <button type="button" class="btn btn-primary mt-auto" data-toggle="modal" data-target="#python-quickSortModal">View Code</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mb-4">
+                <div class="card h-100 p-3 shadow-sm">
+                    <h3 class="program-title"><i class="fas fa-check-double"></i>SELECTION SORT</h3>
+                    <p class="program-description">Sort an array using Selection Sort.</p>
+                    <button type="button" class="btn btn-primary mt-auto" data-toggle="modal" data-target="#python-selectionSortModal">View Code</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mb-4">
+                <div class="card h-100 p-3 shadow-sm">
+                    <h3 class="program-title"><i class="fas fa-cubes"></i>HEAP SORT</h3>
+                    <p class="program-description">Sort an array using Heap Sort.</p>
+                    <button type="button" class="btn btn-primary mt-auto" data-toggle="modal" data-target="#python-heapSortModal">View Code</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mb-4">
+                <div class="card h-100 p-3 shadow-sm">
+                    <h3 class="program-title"><i class="fas fa-layer-group"></i>STACK</h3>
+                    <p class="program-description">Implement a basic stack data structure.</p>
+                    <button type="button" class="btn btn-primary mt-auto" data-toggle="modal" data-target="#python-stackModal">View Code</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mb-4">
+                <div class="card h-100 p-3 shadow-sm">
+                    <h3 class="program-title"><i class="fas fa-angle-double-right"></i>QUEUE</h3>
+                    <p class="program-description">Implement a basic queue data structure.</p>
+                    <button type="button" class="btn btn-primary mt-auto" data-toggle="modal" data-target="#python-queueModal">View Code</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="python-oddEvenModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">ODD OR EVEN</h5><button type="button" class="close" data-dismiss="modal">&times;</button></div><div class="modal-body"><pre><code>num = int(input("Enter a number: "))
+if (num % 2) == 0:
+    print(f"{num} is an Even number")
+else:
+    print(f"{num} is an Odd number")</code></pre></div></div></div></div>
+    <div class="modal fade" id="python-primeModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">PRIME NUMBER</h5><button type="button" class="close" data-dismiss="modal">&times;</button></div><div class="modal-body"><pre><code>num = int(input("Enter a number: "))
+if num > 1:
+    for i in range(2, int(num**0.5) + 1):
+        if (num % i) == 0:
+            print(f"{num} is not a prime number")
+            break
+    else:
+        print(f"{num} is a prime number")
+else:
+    print(f"{num} is not a prime number")</code></pre></div></div></div></div>
+    <div class="modal fade" id="python-factorialModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">FACTORIAL</h5><button type="button" class="close" data-dismiss="modal">&times;</button></div><div class="modal-body"><pre><code>n = int(input("Enter any number: "))
+fact = 1
+if n < 0:
+    print("Factorial does not exist for negative numbers")
+elif n == 0:
+    print("The factorial of 0 is 1")
+else:
+    for i in range(1, n + 1):
+        fact = fact * i
+    print(f"The factorial of {n} is {fact}")</code></pre></div></div></div></div>
+    <div class="modal fade" id="python-palindromeModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">PALINDROME</h5><button type="button" class="close" data-dismiss="modal">&times;</button></div><div class="modal-body"><pre><code>text = input("Enter any string: ")
+# Remove spaces and convert to lowercase for accurate check
+clean_text = text.replace(" ", "").lower()
+if clean_text == clean_text[::-1]:
+    print(f'"{text}" is a palindrome')
+else:
+    print(f'"{text}" is not a palindrome')</code></pre></div></div></div></div>
+    <div class="modal fade" id="python-sumNModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">SUM OF N NATURAL NUMBERS</h5><button type="button" class="close" data-dismiss="modal">&times;</button></div><div class="modal-body"><pre><code>n = int(input("Enter any number: "))
+if n < 1:
+    print("Please enter a positive number")
+else:
+    sum_val = (n * (n + 1)) // 2
+    print(f"Sum of first {n} natural numbers is {sum_val}")</code></pre></div></div></div></div>
+    <div class="modal fade" id="python-fibonacciModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">FIBONACCI SERIES</h5><button type="button" class="close" data-dismiss="modal">&times;</button></div><div class="modal-body"><pre><code>n = int(input("Enter the number of terms: "))
+first, second = 0, 1
+if n <= 0:
+    print("Please enter a positive integer")
+elif n == 1:
+    print("Fibonacci sequence:", first)
+else:
+    print("Fibonacci sequence:")
+    for _ in range(n):
+        print(first, end=" ")
+        next_term = first + second
+        first = second
+        second = next_term</code></pre></div></div></div></div>
+    <div class="modal fade" id="python-reverseNumModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">REVERSE A NUMBER</h5><button type="button" class="close" data-dismiss="modal">&times;</button></div><div class="modal-body"><pre><code>n = int(input("Enter any value: "))
+reverse = 0
+while n != 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n //= 10
+print(f"The reverse of the number is {reverse}")</code></pre></div></div></div></div>
+    <div class="modal fade" id="python-gcdModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">GCD OF TWO NUMBERS</h5><button type="button" class="close" data-dismiss="modal">&times;</button></div><div class="modal-body"><pre><code>import math
+x = int(input("Enter the first number: "))
+y = int(input("Enter the second number: "))
+print(f"GCD of the two numbers is: {math.gcd(x, y)}")</code></pre></div></div></div></div>
+    <div class="modal fade" id="python-armstrongModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">ARMSTRONG NUMBER</h5><button type="button" class="close" data-dismiss="modal">&times;</button></div><div class="modal-body"><pre><code>num_str = input("Enter any number: ")
+order = len(num_str)
+n = int(num_str)
+temp = n
+sum_val = 0
+while temp > 0:
+    digit = temp % 10
+    sum_val += digit ** order
+    temp //= 10
+if n == sum_val:
+    print(f"{n} is an Armstrong number")
+else:
+    print(f"{n} is not an Armstrong number")</code></pre></div></div></div></div>
+    <div class="modal fade" id="python-linearSearchModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">LINEAR SEARCH</h5><button type="button" class="close" data-dismiss="modal">&times;</button></div><div class="modal-body"><pre><code>def linear_search(items, key):
+    for i, item in enumerate(items):
+        if item == key:
+            return i
+    return -1
+
+my_list = [1, 3, 5, 4, 7, 9]
+search_key = 7
+result = linear_search(my_list, search_key)
+if result == -1:
+    print("Element not found")
+else:
+    print(f"Element found at index: {result}")</code></pre></div></div></div></div>
+    <div class="modal fade" id="python-binarySearchModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">BINARY SEARCH</h5><button type="button" class="close" data-dismiss="modal">&times;</button></div><div class="modal-body"><pre><code>def binary_search(sorted_list, key):
+    low = 0
+    high = len(sorted_list) - 1
+    while low <= high:
+        mid = (high + low) // 2
+        if sorted_list[mid] < key:
+            low = mid + 1
+        elif sorted_list[mid] > key:
+            high = mid - 1
+        else:
+            return mid
+    return -1
+
+my_list = [12, 24, 32, 39, 45, 50, 54]
+search_key = 45
+result = binary_search(my_list, search_key)
+if result != -1:
+    print(f"Element is present at index {result}")
+else:
+    print("Element is not present in the list")</code></pre></div></div></div></div>
+    <div class="modal fade" id="python-bubbleSortModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">BUBBLE SORT</h5><button type="button" class="close" data-dismiss="modal">&times;</button></div><div class="modal-body"><pre><code>def bubble_sort(arr):
+    n = len(arr)
+    for i in range(n):
+        for j in range(0, n - i - 1):
+            if arr[j] > arr[j + 1]:
+                arr[j], arr[j + 1] = arr[j + 1], arr[j]
+
+my_array = [2, 1, 10, 23, 5]
+bubble_sort(my_array)
+print("Sorted array is:", my_array)</code></pre></div></div></div></div>
+    <div class="modal fade" id="python-mergeSortModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">MERGE SORT</h5><button type="button" class="close" data-dismiss="modal">&times;</button></div><div class="modal-body"><pre><code>def merge_sort(arr):
+    if len(arr) > 1:
+        mid = len(arr) // 2
+        left_half = arr[:mid]
+        right_half = arr[mid:]
+        merge_sort(left_half)
+        merge_sort(right_half)
+        i = j = k = 0
+        while i < len(left_half) and j < len(right_half):
+            if left_half[i] < right_half[j]:
+                arr[k] = left_half[i]
+                i += 1
+            else:
+                arr[k] = right_half[j]
+                j += 1
+            k += 1
+        while i < len(left_half):
+            arr[k] = left_half[i]
+            i += 1
+            k += 1
+        while j < len(right_half):
+            arr[k] = right_half[j]
+            j += 1
+            k += 1
+
+my_array = [12, 11, 13, 5, 6, 7]
+merge_sort(my_array)
+print("Sorted array is:", my_array)</code></pre></div></div></div></div>
+    <div class="modal fade" id="python-insertionSortModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">INSERTION SORT</h5><button type="button" class="close" data-dismiss="modal">&times;</button></div><div class="modal-body"><pre><code>def insertion_sort(arr):
+    for i in range(1, len(arr)):
+        key = arr[i]
+        j = i - 1
+        while j >= 0 and key < arr[j]:
+            arr[j + 1] = arr[j]
+            j -= 1
+        arr[j + 1] = key
+
+my_array = [7, 2, 1, 6]
+insertion_sort(my_array)
+print("Sorted array is:", my_array)</code></pre></div></div></div></div>
+    <div class="modal fade" id="python-quickSortModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">QUICK SORT</h5><button type="button" class="close" data-dismiss="modal">&times;</button></div><div class="modal-body"><pre><code>def partition(arr, low, high):
+    pivot = arr[high]
+    i = low - 1
+    for j in range(low, high):
+        if arr[j] <= pivot:
+            i += 1
+            arr[i], arr[j] = arr[j], arr[i]
+    arr[i + 1], arr[high] = arr[high], arr[i + 1]
+    return i + 1
+
+def quick_sort(arr, low, high):
+    if low < high:
+        pi = partition(arr, low, high)
+        quick_sort(arr, low, pi - 1)
+        quick_sort(arr, pi + 1, high)
+
+data = [1, 7, 4, 1, 10, 9, -2]
+quick_sort(data, 0, len(data) - 1)
+print("Sorted array is:", data)</code></pre></div></div></div></div>
+    <div class="modal fade" id="python-selectionSortModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">SELECTION SORT</h5><button type="button" class="close" data-dismiss="modal">&times;</button></div><div class="modal-body"><pre><code>def selection_sort(arr):
+    size = len(arr)
+    for i in range(size):
+        min_idx = i
+        for j in range(i + 1, size):
+            if arr[j] < arr[min_idx]:
+                min_idx = j
+        arr[i], arr[min_idx] = arr[min_idx], arr[i]
+
+data = [7, 2, 1, 6]
+selection_sort(data)
+print("Sorted array is:", data)</code></pre></div></div></div></div>
+    <div class="modal fade" id="python-heapSortModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">HEAP SORT</h5><button type="button" class="close" data-dismiss="modal">&times;</button></div><div class="modal-body"><pre><code>def heapify(arr, n, i):
+    largest = i
+    l = 2 * i + 1
+    r = 2 * i + 2
+    if l < n and arr[i] < arr[l]:
+        largest = l
+    if r < n and arr[largest] < arr[r]:
+        largest = r
+    if largest != i:
+        arr[i], arr[largest] = arr[largest], arr[i]
+        heapify(arr, n, largest)
+
+def heap_sort(arr):
+    n = len(arr)
+    for i in range(n // 2 - 1, -1, -1):
+        heapify(arr, n, i)
+    for i in range(n - 1, 0, -1):
+        arr[i], arr[0] = arr[0], arr[i]
+        heapify(arr, i, 0)
+
+arr = [12, 11, 13, 5, 6, 7]
+heap_sort(arr)
+print("Sorted array is:", arr)</code></pre></div></div></div></div>
+    <div class="modal fade" id="python-stackModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">STACK</h5><button type="button" class="close" data-dismiss="modal">&times;</button></div><div class="modal-body"><pre><code>stack = []
+# Push items onto the stack
+stack.append('A')
+stack.append('B')
+stack.append('C')
+print("Initial stack:", stack)
+# Pop items from the stack
+print("Popped item:", stack.pop())
+print("Popped item:", stack.pop())
+print("Stack after popping:", stack)</code></pre></div></div></div></div>
+    <div class="modal fade" id="python-queueModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">QUEUE</h5><button type="button" class="close" data-dismiss="modal">&times;</button></div><div class="modal-body"><pre><code>from collections import deque
+queue = deque()
+# Enqueue items
+queue.append('A')
+queue.append('B')
+queue.append('C')
+print("Initial queue:", queue)
+# Dequeue items
+print("Dequeued item:", queue.popleft())
+print("Dequeued item:", queue.popleft())
+print("Queue after dequeuing:", queue)</code></pre></div></div></div></div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>

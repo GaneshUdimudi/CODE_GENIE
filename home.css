@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Your+Cursive+Font);
+
+.bg-container {
+    background-image: url("background.jpg.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    /* The incorrect 'width' property was removed from here */
+}
+
+.paragraph {
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Roboto', sans-serif; /* Changed to a cleaner font */
+    font-size: 1.25rem; /* Made the font size bigger */
+    line-height: 1.6; /* Added for better line spacing */
+    color: #333; /* A softer color for better readability */
+}
+
+.heading {
+    color: #0e0d0d;
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    padding: 200px;
+}
+
+.butt {
+    color: #ffffff;
+    border-width: 0px;
+    background-color: #323f4b;
+    border-radius: 3px;
+    height: 35px;
+    width: 95px;
+}
+
+.text-align {
+    text-align: center;
+}
+.page-heading {
+    font-family: 'Poppins', sans-serif;
+    color: var(--heading-color);
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Add this line */
+}
+.page-paragraph {
+    font-size: 1.2rem;
+    color: #fff; /* Changed to white for better contrast */
+    font-weight: 500; /* Made it slightly bolder */
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8); /* Add this line */
+}

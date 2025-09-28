@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback - Code Genie</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">CODE GENIE</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="java.html">JAVA</a></li>
+                <li class="nav-item"><a class="nav-link" href="python.html">PYTHON</a></li>
+                <li class="nav-item"><a class="nav-link" href="c.html">C</a></li>
+                <li class="nav-item active"><a class="nav-link" href="suggestion.html">FEEDBACK</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <form id="suggestion_form" class="text-center feedback-form">
+                    <div class="mb-4">
+                        <img src="assets/ima.png" alt="Feedback Header" class="feedback-image">
+                    </div>
+                    <fieldset class="form-group">
+                        <textarea id="feedbackText" class="form-control" placeholder="Give your feedback here..." rows="8" name="suggestion_text" required></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <button name="submit" type="submit" class="btn btn-primary">Submit</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Find the form on the page
+        const form = document.getElementById('suggestion_form');
+
+        // Listen for when the form is submitted
+        form.addEventListener('submit', function(event) {
+            // Prevent the page from reloading
+            event.preventDefault(); 
+            
+            // Show the "Thank You" message
+            alert('Thank you for your feedback!');
+            
+            // Optional: Clear the text area after submission
+            document.getElementById('feedbackText').value = '';
+        });
+    </script>
+</body>
+</html>

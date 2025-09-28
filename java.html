@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Genie</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+    
+    <link rel="stylesheet" href="assets/animations.css">
+
+    <title>Java Programs - Code Genie</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">CODE GENIE</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item active"><a class="nav-link" href="java.html">JAVA</a></li>
+                <li class="nav-item"><a class="nav-link" href="python.html">PYTHON</a></li>
+                <li class="nav-item"><a class="nav-link" href="c.html">C</a></li>
+                <li class="nav-item"><a class="nav-link" href="suggestion.html">FEEDBACK</a></li>
+            </ul>
+        </div>
+    </nav>
+
+<div class="container pt-5 pb-5 main-content-area">
+
+        <div class="row">
+            <div class="col-12 text-center mb-4">
+                <h1 class="page-heading">Java Programming</h1>
+                <p class="page-paragraph">Java is a multi-platform, object-oriented, and network-centric language used for everything from mobile apps to enterprise software.</p>
+            </div>
+
+            <div class="col-12">
+                <h2 class="section-heading">PROGRAMS</h2>
+            </div>
+
+            <div class="col-12 col-md-6 mb-4">
+                <div class="card h-100 p-3 shadow-sm">
+                    <h3 class="program-title"><i class="fas fa-adjust"></i>ODD OR EVEN</h3>
+                    <p class="program-description">Check whether a given number is odd or even.</p>
+                    <button type="button" class="btn btn-primary mt-auto" data-toggle="modal" data-target="#java-oddEvenModal">View Code</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mb-4">
+                <div class="card h-100 p-3 shadow-sm">
+                    <h3 class="program-title"><i class="fas fa-gem"></i>PRIME NUMBER</h3>
+                    <p class="program-description">Check if a number is prime.</p>
+                    <button type="button" class="btn btn-primary mt-auto" data-toggle="modal" data-target="#java-primeModal">View Code</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mb-4">
+                <div class="card h-100 p-3 shadow-sm">
+                    <h3 class="program-title"><i class="fas fa-calculator"></i>FACTORIAL</h3>
+                    <p class="program-description">Calculate the factorial of a number using recursion.</p>
+                    <button type="button" class="btn btn-primary mt-auto" data-toggle="modal" data-target="#java-factorialModal">View Code</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mb-4">
+                <div class="card h-100 p-3 shadow-sm">
+                    <h3 class="program-title"><i class="fas fa-exchange-alt"></i>PALINDROME</h3>
+                    <p class="program-description">Check if a number is a palindrome.</p>
+                    <button type="button" class="btn btn-primary mt-auto" data-toggle="modal" data-target="#java-palindromeModal">View Code</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mb-4">
+                <div class="card h-100 p-3 shadow-sm">
+                    <h3 class="program-title"><i class="fas fa-stream"></i>SUM OF N NATURAL NUMBERS</h3>
+                    <p class="program-description">Find the sum of the first N natural numbers.</p>
+                    <button type="button" class="btn btn-primary mt-auto" data-toggle="modal" data-target="#java-sumNModal">View Code</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mb-4">
+                <div class="card h-100 p-3 shadow-sm">
+                    <h3 class="program-title"><i class="fas fa-dna"></i>FIBONACCI SERIES</h3>
+                    <p class="program-description">Generate the Fibonacci series using recursion.</p>
+                    <button type="button" class="btn btn-primary mt-auto" data-toggle="modal" data-target="#java-fibonacciModal">View Code</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mb-4">
+                <div class="card h-100 p-3 shadow-sm">
+                    <h3 class="program-title"><i class="fas fa-undo"></i>REVERSE A NUMBER</h3>
+                    <p class="program-description">Reverse the digits of an integer.</p>
+                    <button type="button" class="btn btn-primary mt-auto" data-toggle="modal" data-target="#java-reverseNumModal">View Code</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mb-4">
+                <div class="card h-100 p-3 shadow-sm">
+                    <h3 class="program-title"><i class="fas fa-divide"></i>GCD OF TWO NUMBERS</h3>
+                    <p class="program-description">Find the Greatest Common Divisor (GCD) of two numbers.</p>
+                    <button type="button" class="btn btn-primary mt-auto" data-toggle="modal" data-target="#java-gcdModal">View Code</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mb-4">
+                <div class="card h-100 p-3 shadow-sm">
+                    <h3 class="program-title"><i class="fas fa-star"></i>ARMSTRONG NUMBER</h3>
+                    <p class="program-description">Check if a number is an Armstrong number.</p>
+                    <button type="button" class="btn btn-primary mt-auto" data-toggle="modal" data-target="#java-armstrongModal">View Code</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mb-4">
+                <div class="card h-100 p-3 shadow-sm">
+                    <h3 class="program-title"><i class="fas fa-search"></i>LINEAR SEARCH</h3>
+                    <p class="program-description">Implement the linear search algorithm.</p>
+                    <button type="button" class="btn btn-primary mt-auto" data-toggle="modal" data-target="#java-linearSearchModal">View Code</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mb-4">
+                <div class="card h-100 p-3 shadow-sm">
+                    <h3 class="program-title"><i class="fas fa-search-plus"></i>BINARY SEARCH</h3>
+                    <p class="program-description">Implement the binary search algorithm.</p>
+                    <button type="button" class="btn btn-primary mt-auto" data-toggle="modal" data-target="#java-binarySearchModal">View Code</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mb-4">
+                <div class="card h-100 p-3 shadow-sm">
+                    <h3 class="program-title"><i class="fas fa-sort-amount-up"></i>BUBBLE SORT</h3>
+                    <p class="program-description">Sort an array using Bubble Sort.</p>
+                    <button type="button" class="btn btn-primary mt-auto" data-toggle="modal" data-target="#java-bubbleSortModal">View Code</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mb-4">
+                <div class="card h-100 p-3 shadow-sm">
+                    <h3 class="program-title"><i class="fas fa-code-branch"></i>MERGE SORT</h3>
+                    <p class="program-description">Sort an array using Merge Sort.</p>
+                    <button type="button" class="btn btn-primary mt-auto" data-toggle="modal" data-target="#java-mergeSortModal">View Code</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mb-4">
+                <div class="card h-100 p-3 shadow-sm">
+                    <h3 class="program-title"><i class="fas fa-sort-numeric-down"></i>INSERTION SORT</h3>
+                    <p class="program-description">Sort an array using Insertion Sort.</p>
+                    <button type="button" class="btn btn-primary mt-auto" data-toggle="modal" data-target="#java-insertionSortModal">View Code</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mb-4">
+                <div class="card h-100 p-3 shadow-sm">
+                    <h3 class="program-title"><i class="fas fa-fast-forward"></i>QUICK SORT</h3>
+                    <p class="program-description">Sort an array using Quick Sort.</p>
+                    <button type="button" class="btn btn-primary mt-auto" data-toggle="modal" data-target="#java-quickSortModal">View Code</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mb-4">
+                <div class="card h-100 p-3 shadow-sm">
+                    <h3 class="program-title"><i class="fas fa-check-double"></i>SELECTION SORT</h3>
+                    <p class="program-description">Sort an array using Selection Sort.</p>
+                    <button type="button" class="btn btn-primary mt-auto" data-toggle="modal" data-target="#java-selectionSortModal">View Code</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mb-4">
+                <div class="card h-100 p-3 shadow-sm">
+                    <h3 class="program-title"><i class="fas fa-cubes"></i>HEAP SORT</h3>
+                    <p class="program-description">Sort an array using Heap Sort.</p>
+                    <button type="button" class="btn btn-primary mt-auto" data-toggle="modal" data-target="#java-heapSortModal">View Code</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mb-4">
+                <div class="card h-100 p-3 shadow-sm">
+                    <h3 class="program-title"><i class="fas fa-layer-group"></i>STACK</h3>
+                    <p class="program-description">Implement a basic stack using Java's Collection Framework.</p>
+                    <button type="button" class="btn btn-primary mt-auto" data-toggle="modal" data-target="#java-stackModal">View Code</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mb-4">
+                <div class="card h-100 p-3 shadow-sm">
+                    <h3 class="program-title"><i class="fas fa-angle-double-right"></i>QUEUE</h3>
+                    <p class="program-description">Implement a priority queue using Java's Collection Framework.</p>
+                    <button type="button" class="btn btn-primary mt-auto" data-toggle="modal" data-target="#java-queueModal">View Code</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="java-oddEvenModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">ODD OR EVEN</h5><button type="button" class="close" data-dismiss="modal">&times;</button></div><div class="modal-body"><pre><code>import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner reader = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int num = reader.nextInt();
+        if (num % 2 == 0) {
+            System.out.println(num + " is even");
+        } else {
+            System.out.println(num + " is odd");
+        }
+    }
+}</code></pre></div></div></div></div>
+    <div class="modal fade" id="java-primeModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">PRIME NUMBER</h5><button type="button" class="close" data-dismiss="modal">&times;</button></div><div class="modal-body"><pre><code>public class Prime {
+    public static void main(String args[]) {
+        int i, m = 0, flag = 0;
+        int n = 17; // The number to check
+        m = n / 2;
+        if (n == 0 || n == 1) {
+            System.out.println(n + " is not a prime number");
+        } else {
+            for (i = 2; i <= m; i++) {
+                if (n % i == 0) {
+                    System.out.println(n + " is not a prime number");
+                    flag = 1;
+                    break;
+                }
+            }
+            if (flag == 0) {
+                System.out.println(n + " is a prime number");
+            }
+        }
+    }
+}</code></pre></div></div></div></div>
+    <div class="modal fade" id="java-factorialModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">FACTORIAL</h5><button type="button" class="close" data-dismiss="modal">&times;</button></div><div class="modal-body"><pre><code>class Factorial {
+    static int factorial(int n) {
+        if (n == 0)
+            return 1;
+        else
+            return (n * factorial(n - 1));
+    }
+    public static void main(String args[]) {
+        int number = 5;
+        int fact = factorial(number);
+        System.out.println("Factorial of " + number + " is: " + fact);
+    }
+}</code></pre></div></div></div></div>
+    <div class="modal fade" id="java-palindromeModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">PALINDROME</h5><button type="button" class="close" data-dismiss="modal">&times;</button></div><div class="modal-body"><pre><code>class Palindrome {
+    public static void main(String args[]) {
+        int r, sum = 0, temp;
+        int n = 454; // Number to check
+        temp = n;
+        while (n > 0) {
+            r = n % 10;
+            sum = (sum * 10) + r;
+            n = n / 10;
+        }
+        if (temp == sum)
+            System.out.println("It is a palindrome number");
+        else
+            System.out.println("It is not a palindrome");
+    }
+}</code></pre></div></div></div></div>
+    <div class="modal fade" id="java-sumNModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">SUM OF N NATURAL NUMBERS</h5><button type="button" class="close" data-dismiss="modal">&times;</button></div><div class="modal-body"><pre><code>public class SumOfNaturalNumber {
+    public static void main(String[] args) {
+        int i, num = 10, sum = 0;
+        for (i = 1; i <= num; ++i) {
+            sum = sum + i;
+        }
+        System.out.println("Sum of First " + num + " Natural Numbers is = " + sum);
+    }
+}</code></pre></div></div></div></div>
+    <div class="modal fade" id="java-fibonacciModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">FIBONACCI SERIES</h5><button type="button" class="close" data-dismiss="modal">&times;</button></div><div class="modal-body"><pre><code>class Fibonacci {
+    static int n1 = 0, n2 = 1, n3 = 0;
+    static void printFibonacci(int count) {
+        if (count > 0) {
+            n3 = n1 + n2;
+            n1 = n2;
+            n2 = n3;
+            System.out.print(" " + n3);
+            printFibonacci(count - 1);
+        }
+    }
+    public static void main(String args[]) {
+        int count = 10;
+        System.out.print(n1 + " " + n2); // printing 0 and 1
+        printFibonacci(count - 2); // n-2 because 2 numbers are already printed
+    }
+}</code></pre></div></div></div></div>
+    <div class="modal fade" id="java-reverseNumModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">REVERSE A NUMBER</h5><button type="button" class="close" data-dismiss="modal">&times;</button></div><div class="modal-body"><pre><code>public class ReverseNumber {
+    public static void main(String[] args) {
+        int number = 987654, reverse = 0;
+        while (number != 0) {
+            int remainder = number % 10;
+            reverse = reverse * 10 + remainder;
+            number = number / 10;
+        }
+        System.out.println("The reverse of the given number is: " + reverse);
+    }
+}</code></pre></div></div></div></div>
+    <div class="modal fade" id="java-gcdModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">GCD OF TWO NUMBERS</h5><button type="button" class="close" data-dismiss="modal">&times;</button></div><div class="modal-body"><pre><code>public class FindGCD {
+    public static void main(String[] args) {
+        int num1 = 12, num2 = 8, gcd = 1;
+        for(int i = 1; i <= num1 && i <= num2; ++i) {
+            // Checks if i is a factor of both integers
+            if(num1 % i == 0 && num2 % i == 0)
+                gcd = i;
+        }
+        System.out.println("GCD = " + gcd);
+    }
+}</code></pre></div></div></div></div>
+    <div class="modal fade" id="java-armstrongModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">ARMSTRONG NUMBER</h5><button type="button" class="close" data-dismiss="modal">&times;</button></div><div class="modal-body"><pre><code>public class ArmstrongNumber {
+    static boolean isArmstrong(int n) {
+        int temp, digits = 0, last = 0, sum = 0;
+        temp = n;
+        while (temp > 0) {
+            temp = temp / 10;
+            digits++;
+        }
+        temp = n;
+        while (temp > 0) {
+            last = temp % 10;
+            sum += (Math.pow(last, digits));
+            temp = temp / 10;
+        }
+        return n == sum;
+    }
+    public static void main(String args[]) {
+        int num = 153;
+        if (isArmstrong(num)) {
+            System.out.print("Armstrong");
+        } else {
+            System.out.print("Not Armstrong");
+        }
+    }
+}</code></pre></div></div></div></div>
+    <div class="modal fade" id="java-linearSearchModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">LINEAR SEARCH</h5><button type="button" class="close" data-dismiss="modal">&times;</button></div><div class="modal-body"><pre><code>public class LinearSearch {
+    public static int linearSearch(int[] arr, int key) {
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == key) {
+                return i;
+            }
+        }
+        return -1;
+    }
+    public static void main(String a[]) {
+        int[] a1 = { 10, 20, 30, 50, 70, 90 };
+        int key = 50;
+        System.out.println(key + " is found at index: " + linearSearch(a1, key));
+    }
+}</code></pre></div></div></div></div>
+    <div class="modal fade" id="java-binarySearchModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">BINARY SEARCH</h5><button type="button" class="close" data-dismiss="modal">&times;</button></div><div class="modal-body"><pre><code>class BinarySearch {
+    public static void binarySearch(int arr[], int first, int last, int key) {
+        int mid = (first + last) / 2;
+        while (first <= last) {
+            if (arr[mid] < key) {
+                first = mid + 1;
+            } else if (arr[mid] == key) {
+                System.out.println("Element is found at index: " + mid);
+                break;
+            } else {
+                last = mid - 1;
+            }
+            mid = (first + last) / 2;
+        }
+        if (first > last) {
+            System.out.println("Element is not found!");
+        }
+    }
+    public static void main(String args[]) {
+        int arr[] = { 10, 20, 30, 40, 50 };
+        int key = 30;
+        int last = arr.length - 1;
+        binarySearch(arr, 0, last, key);
+    }
+}</code></pre></div></div></div></div>
+    <div class="modal fade" id="java-bubbleSortModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">BUBBLE SORT</h5><button type="button" class="close" data-dismiss="modal">&times;</button></div><div class="modal-body"><pre><code>public class BubbleSort {
+    static void bubbleSort(int[] arr) {
+        int n = arr.length;
+        int temp = 0;
+        for (int i = 0; i < n; i++) {
+            for (int j = 1; j < (n - i); j++) {
+                if (arr[j - 1] > arr[j]) {
+                    temp = arr[j - 1];
+                    arr[j - 1] = arr[j];
+                    arr[j] = temp;
+                }
+            }
+        }
+    }
+    public static void main(String[] args) {
+        int arr[] = { 3, 60, 35, 2, 45, 320, 5 };
+        bubbleSort(arr);
+        System.out.println("Array After Bubble Sort");
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
+        }
+    }
+}</code></pre></div></div></div></div>
+    <div class="modal fade" id="java-mergeSortModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">MERGE SORT</h5><button type="button" class="close" data-dismiss="modal">&times;</button></div><div class="modal-body"><pre><code>class MergeSort {
+    void merge(int arr[], int l, int m, int r) {
+        int n1 = m - l + 1;
+        int n2 = r - m;
+        int L[] = new int[n1];
+        int R[] = new int[n2];
+        for (int i = 0; i < n1; ++i) L[i] = arr[l + i];
+        for (int j = 0; j < n2; ++j) R[j] = arr[m + 1 + j];
+        int i = 0, j = 0;
+        int k = l;
+        while (i < n1 && j < n2) {
+            if (L[i] <= R[j]) {
+                arr[k] = L[i];
+                i++;
+            } else {
+                arr[k] = R[j];
+                j++;
+            }
+            k++;
+        }
+        while (i < n1) {
+            arr[k] = L[i];
+            i++;
+            k++;
+        }
+        while (j < n2) {
+            arr[k] = R[j];
+            j++;
+            k++;
+        }
+    }
+    void sort(int arr[], int l, int r) {
+        if (l < r) {
+            int m = (l + r) / 2;
+            sort(arr, l, m);
+            sort(arr, m + 1, r);
+            merge(arr, l, m, r);
+        }
+    }
+}</code></pre></div></div></div></div>
+    <div class="modal fade" id="java-insertionSortModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">INSERTION SORT</h5><button type="button" class="close" data-dismiss="modal">&times;</button></div><div class="modal-body"><pre><code>public class InsertionSort {
+    public static void insertionSort(int array[]) {
+        int n = array.length;
+        for (int j = 1; j < n; j++) {
+            int key = array[j];
+            int i = j - 1;
+            while ((i > -1) && (array[i] > key)) {
+                array[i + 1] = array[i];
+                i--;
+            }
+            array[i + 1] = key;
+        }
+    }
+    public static void main(String a[]) {
+        int[] arr1 = { 9, 14, 3, 2, 43, 11, 58, 22 };
+        insertionSort(arr1);
+        System.out.println("After Insertion Sort");
+        for (int i : arr1) {
+            System.out.print(i + " ");
+        }
+    }
+}</code></pre></div></div></div></div>
+    <div class="modal fade" id="java-quickSortModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">QUICK SORT</h5><button type="button" class="close" data-dismiss="modal">&times;</button></div><div class="modal-body"><pre><code>public class QuickSort {
+    int partition(int a[], int start, int end) {
+        int pivot = a[end];
+        int i = (start - 1);
+        for (int j = start; j <= end - 1; j++) {
+            if (a[j] < pivot) {
+                i++;
+                int t = a[i]; a[i] = a[j]; a[j] = t;
+            }
+        }
+        int t = a[i + 1]; a[i + 1] = a[end]; a[end] = t;
+        return (i + 1);
+    }
+    void quick(int a[], int start, int end) {
+        if (start < end) {
+            int p = partition(a, start, end);
+            quick(a, start, p - 1);
+            quick(a, p + 1, end);
+        }
+    }
+}</code></pre></div></div></div></div>
+    <div class="modal fade" id="java-selectionSortModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">SELECTION SORT</h5><button type="button" class="close" data-dismiss="modal">&times;</button></div><div class="modal-body"><pre><code>public class SelectionSortExample {
+    public static void selectionSort(int[] arr) {
+        for (int i = 0; i < arr.length - 1; i++) {
+            int index = i;
+            for (int j = i + 1; j < arr.length; j++) {
+                if (arr[j] < arr[index]) {
+                    index = j;
+                }
+            }
+            int smallerNumber = arr[index];
+            arr[index] = arr[i];
+            arr[i] = smallerNumber;
+        }
+    }
+    public static void main(String a[]) {
+        int[] arr1 = { 9, 14, 3, 2, 43, 11, 58, 22 };
+        selectionSort(arr1);
+        System.out.println("After Selection Sort");
+        for (int i : arr1) {
+            System.out.print(i + " ");
+        }
+    }
+}</code></pre></div></div></div></div>
+    <div class="modal fade" id="java-heapSortModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">HEAP SORT</h5><button type="button" class="close" data-dismiss="modal">&times;</button></div><div class="modal-body"><pre><code>public class HeapSort {
+    public void sort(int arr[]) {
+        int n = arr.length;
+        for (int i = n / 2 - 1; i >= 0; i--)
+            heapify(arr, n, i);
+        for (int i = n - 1; i >= 0; i--) {
+            int temp = arr[0];
+            arr[0] = arr[i];
+            arr[i] = temp;
+            heapify(arr, i, 0);
+        }
+    }
+    void heapify(int arr[], int n, int i) {
+        int largest = i;
+        int l = 2 * i + 1;
+        int r = 2 * i + 2;
+        if (l < n && arr[l] > arr[largest]) largest = l;
+        if (r < n && arr[r] > arr[largest]) largest = r;
+        if (largest != i) {
+            int swap = arr[i];
+            arr[i] = arr[largest];
+            arr[largest] = swap;
+            heapify(arr, n, largest);
+        }
+    }
+}</code></pre></div></div></div></div>
+    <div class="modal fade" id="java-stackModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">STACK</h5><button type="button" class="close" data-dismiss="modal">&times;</button></div><div class="modal-body"><pre><code>import java.util.*;
+public class StackDemo {
+    public static void main(String args[]) {
+        Stack<Integer> st = new Stack<>();
+        st.push(42);
+        st.push(66);
+        st.push(99);
+        System.out.println("Stack: " + st);
+        System.out.println("Popped: " + st.pop());
+        System.out.println("Stack after pop: " + st);
+    }
+}</code></pre></div></div></div></div>
+    <div class="modal fade" id="java-queueModal" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">QUEUE</h5><button type="button" class="close" data-dismiss="modal">&times;</button></div><div class="modal-body"><pre><code>import java.util.*;
+class QueueExample {
+    public static void main(String args[]) {
+        PriorityQueue<String> queue = new PriorityQueue<>();
+        queue.add("Amit");
+        queue.add("Vijay");
+        queue.add("Karan");
+        System.out.println("Head of the queue: " + queue.peek());
+        System.out.println("Removing: " + queue.poll());
+        System.out.println("Queue after removal: " + queue);
+    }
+}</code></pre></div></div></div></div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
